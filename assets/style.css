@@ -1,0 +1,12 @@
+body
+{
+    background-image: url(/assets/images/cutcube_@2X.png);
+}
+
+.navbar-brand
+{
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

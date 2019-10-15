@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(/assets/images/cutcube_@2X.png);
+    background-image: url(../assets/images/cutcube_@2X.png);
 }
 
 .navbar-brand
@@ -9,4 +9,46 @@ body
     padding: 10px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    width: 960px;
+    margin-top: 20px;
+    background-color: #eee;
+    overflow: auto;
+}
+
+p
+{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.card-deck
+{
+    background-color: #eee;
+    overflow: auto;
+}
+
+.card-body
+{
+    width: 100%;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+span
+{
+    padding-left: 48%;
+    color: #eee;
 }

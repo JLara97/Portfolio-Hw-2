@@ -19,10 +19,26 @@ body
     overflow: auto;
 }
 
+h2
+{
+    color: #4aaaa5;
+    border-bottom: 4px solid lightgrey;
+}
+
 p
 {
     margin-top: 5px;
     font-size: 18px;
+}
+
+.form-group
+{
+    margin-top: 10px;
+}
+
+.form-row
+{
+    margin-top: 10px;
 }
 
 .card-deck
